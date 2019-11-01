@@ -33,7 +33,7 @@ module.exports = {
       resolve: 'gatsby-source-prismic',
       options: {
         repositoryName: 'test-gatbsy-starter',
-        accessToken: `${process.env.API_KEY}`,
+        accessToken: 'MC5YYnc4bHhFQUFDTUFrVXF2.77-977-9MEsD77-977-977-977-977-9ZwZmDO-_ve-_vUF0C--_vS8g77-9J--_vXAa77-9ZA7vv71O',
         // Get the correct URLs in blog posts
         linkResolver: () => post => `/${post.uid}`,
         // PrismJS highlighting for labels and slices
